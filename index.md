@@ -33,15 +33,12 @@ mode        : selfcontained # {standalone, draft}
 
 ## Decomposition of the Singapore Stock Market Equity Index
 
-
-```
-## Error: could not find function "decompose_stock"
-```
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1.png) 
 
 
 
 ```
-## Error: object 'final_plot' not found
+## NULL
 ```
 
 
@@ -50,10 +47,7 @@ mode        : selfcontained # {standalone, draft}
 ## Decomposition of balanced portfolio
 ### ( 34%/33%/33% mix of Equity/Bond/Commodities )
 
-
-```
-## Error: could not find function "perm_portfolio"
-```
+![plot of chunk unnamed-chunk-3](assets/fig/unnamed-chunk-3.png) 
 
 
 --- .class #id 
