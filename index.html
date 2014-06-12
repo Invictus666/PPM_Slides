@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Permanent Portfolio Analyzer Web App</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Permanent Portfolio Analyzer Web App">
+  <meta name="author" content="Ng Wai Chung">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Permanent Portfolio Analyzer Web App</h1>
+    <h2>Allows users to simulate a portfolio equities, bonds and commodities.</h2>
+    <p>Ng Wai Chung<br/>Pre-matriculant with the SMU JD program.</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Motivation</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Investors would like to maximise returns but minimize their risks.</li>
+<li>Equities or stock have large returns but comes with larger risks.</li>
+<li>Bonds have lower returns but it comes with a much lower risk</li>
+<li>Commodities provide diversification from equities and bonds.</li>
+<li>There is a motivation to creare a tool which allows investor to determine an asset which suits his risk appetite.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Permanent Portfolio Web Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Decomposes a stock time series into trend, seasonal and random components.</li>
+<li>Selects from 3 popular Exchange Traded Funds available in the Singapore Stock Market.</li>
+<li>Covers the main stock, bonds and commodities asset classes.</li>
+<li>The user can blended these ETFs to create an asset mix.</li>
+<li>The user will be able to observe the changes in portfolio returns and standard deviations on this page.</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Decomposition of the Singapore Stock Market Equity Index</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code>## Error: could not find function &quot;decompose_stock&quot;
+</code></pre>
+
+<pre><code>## Error: object &#39;final_plot&#39; not found
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Decomposition of balanced portfolio</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>( 34%/33%/33% mix of Equity/Bond/Commodities )</h3>
+
+<pre><code>## Error: could not find function &quot;perm_portfolio&quot;
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Some points on how this app works</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Decomposes a stock time series into trend, seasonal and random components.</li>
+<li>Selects from 3 popular Exchange Traded Funds available in the Singapore Stock Market.</li>
+<li>Covers the main stock, bonds and commodities asset classes.</li>
+<li>The user can blend these ETFs to create an asset mix.</li>
+<li>The user will be able to observe the changes in portfolio returns and standard deviations on this page.</li>
+<li>This program takes into account broker cost when the portfolio is rebalanced on an annual basis. </li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Motivation'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Permanent Portfolio Web Application'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Decomposition of the Singapore Stock Market Equity Index'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Decomposition of balanced portfolio'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Some points on how this app works'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
